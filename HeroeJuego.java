@@ -7,7 +7,7 @@ public class HeroeJuego {
         String clase = "Guerrero";
 
         int nivel = 1;
-        int vida = 150;
+        int vida = 80;
         int monedas = 50;
 
         double velocidad = 4.5;
@@ -25,7 +25,7 @@ public class HeroeJuego {
         System.out.println("¿Tiene mascota? " + tieneMascota);
 
         // El héroe encuentra un tesoro
-        monedas = monedas + 50;
+        monedas = monedas + 60;
 
         // Sube de nivel
         nivel = nivel + 1;
@@ -33,5 +33,6 @@ public class HeroeJuego {
         System.out.println("\n=== DESPUES DE LA AVENTURA ===");
         System.out.println("Nivel actual: " + nivel);
         System.out.println("Monedas actuales: " + monedas);
+		System.out.println("Vida actual: " + vida);
     }
 }
