@@ -9,8 +9,8 @@ public class HeroeJuego {
         int nivel = 1;
         int vida = 80;
         int monedas = 50;
+        double velocidad = 5.5;
 
-        double velocidad = 5.0;
 
         boolean tieneMascota = true;
 
