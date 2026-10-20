@@ -10,7 +10,7 @@ public class HeroeJuego {
         int vida = 80;
         int monedas = 50;
 
-        double velocidad = 4.5;
+        double velocidad = 6;
 
         boolean tieneMascota = true;
 
